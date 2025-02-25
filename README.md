@@ -16,7 +16,7 @@ docker run --rm -i -v "$PWD":/data latex pdflatex nick_res_2.tex
 ```
 
 ### Preview
-![resume_preview](https://github.com/user-attachments/assets/ae0e3230-d69d-4c85-8864-39b135561465)
+![Nick_Jones_Resume-1](https://github.com/user-attachments/assets/190fbe62-48b4-42a2-9aab-dfa47ce677db)
 
 ### License
 
