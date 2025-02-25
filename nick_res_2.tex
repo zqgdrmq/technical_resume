@@ -1,0 +1,172 @@
+%-------------------------
+% Resume in Latex
+% Author : nick jones
+% Website: https://github.com/
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://linktr.ee/zqgdrmq}{\Large Nick Jones}} & Email : \href{mailto:nickjfj@gmail.com}{nickjfj@gmail.com}\\
+Mobile : +1-678-428-**** \\
+\href{https://linktr.ee/zqgdrmq}{https://linktr.ee/zqgdrmq}\\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bowline.Group}{Alpharetta, GA}
+      {Founder}{Aug 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{YOLO Object Detection and Recognition}
+          {Yolo is an open source software library. Developing solution to be primarily used for object detection, image segmentation, image classification and oriented object detection.}
+        \resumeItem{Chainlink}
+          {Chainlink is a unified model for decentralized blockchain oracle networks. Facilitated the transfer of tamper-proof data from off-chain sources to on-chain smart contracts and cross-chain using the CCIP protocol.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Global Payments Inc}{Atlanta, GA}
+      {Vice President Software Engineering \& Cyber Security}{Apr 2006 - Aug 2022}
+      \resumeItemListStart
+      \resumeItem{\textbf{Cyber \& Application Security}}
+          {Implemented immediate response teams for critical zero defect vulnerabilities helping resolve 100\% of all reported incidents. Automated monthly vulnerability and NIST 800-53 reporting.}
+        \resumeItem{\textbf{Payments Integration}}
+          {Created and led the end-to-end strategy for the integration of HSBC's merchant-acquiring transaction processing systems into Global Payments application portfolio. Spearheaded conversions in Brunei, Hong Kong, Malaysia, Maldives, the Philippines, Singapore, Sri-Lanka, the U.S., and the U.K. Successfully positioned Global Payments as a leading solution in the global payments market.}
+        \resumeItem{\textbf{Operations and Delivery}}
+          {Enterprise multi-cloud (AWS, Azure, GCP), on-premise and mobile application portfolio management and delivery operations with specializations in devsecops, ephemeral test environments and test data, test automation, performance and resilience engineering. Teams located in the US, India, the Philippines and China. Portfolio included enterprise transaction processing, customer boarding, risk management, gaming and emerging payments platforms.}
+        \resumeItem{\textbf{Global Implementations and Compliance}}
+          {Championed the adoption of Agile delivery and DevOps into the Software Delivery Life Cycle incorporating PCI DSS 4.0 compliance, OWASP, FFIEC and SOX reporting.}
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {Turner Broadcasting Inc}{Atlanta, GA}
+      {Independent Consultant}{Jan 2005 - Mar 2006}
+        \resumeItemListStart
+        \resumeItem{GameTap}
+          {Provided core test automation and load testing services for Time Warner's first and award-winning internet gaming platform.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+      {ATT BellSouth}{Atlanta, GA}
+      {Independent Consultant}{Jan 2002 - Dec 2004}
+        \resumeItemListStart
+        \resumeItem{Customer Services Re-engineering}
+          {Architected the test automation and load testing services for the enterprise Service Oriented Architecture (SOA) re-engineering effort.}
+      \resumeItemListEnd
+      
+\resumeSubheading
+      {eHatchery Startup Incubator}{Atlanta, GA}
+      {VP of Operations}{Jan 2000 -  Dec 2001}
+\resumeItemListStart
+        \resumeItem{Portfolio Management}
+          {a joint venture with private investors and Emory University. Set up the program management practices in the incubator before joining VetExchange, a groundbreaking Oracle cloud-hosted Software as a Service solution for veterinary practice.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    
+    \resumeSubItem{HyperLedger Fabric}
+      {Led engineering teams to deliver a highly scalable and secure private permissioned blockchain.}
+    \resumeSubItem{GameTap}
+      {Development team nominated for a Technical Emmy for Outstanding Innovation in Advanced Media Technology.}
+    
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Python, Solidity, SQL, Bash}
+     \hfill
+     \textbf{Certifications}{: Chainlink, Google GCP, ISC2 Cybersecurity}
+   }
+ \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Liverpool}{Liverpool, England}
+      {MBA International Business  GPA: 3.0}{Jun. 2006 -- Sep. 2008}
+    \resumeSubheading
+      {City of London Polytechnic}{London, England}
+      {BA in Information Technology;  Honours}{Sep. 1982 -- July. 1986}
+  \resumeSubHeadingListEnd
+
+
+\end{document}
+%-------------------------------------------
