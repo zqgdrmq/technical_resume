@@ -12,7 +12,7 @@ Get started quickly using the [Overleaf](https://www.overleaf.com/latex/template
 
 ```sh
 docker build -t latex .
-docker run --rm -i -v "$PWD":/data latex pdflatex sourabh_bajaj_resume.tex
+docker run --rm -i -v "$PWD":/data latex pdflatex nick_res_2.tex
 ```
 
 ### Preview
