@@ -17,8 +17,6 @@ docker run --rm -i -v "$PWD":/data latex pdflatex sourabh_bajaj_resume.tex
 
 ### Preview
 
-![resume_preview](/resume_preview.png)
-
 ### License
 
 Format is MIT but all the data is owned by Sourabh Bajaj.
