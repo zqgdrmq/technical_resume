@@ -16,9 +16,8 @@ docker run --rm -i -v "$PWD":/data latex pdflatex nick_res_2.tex
 ```
 
 ### Preview
-[resume_preview]/resume_preview.png
-
+![resume_preview](https://github.com/user-attachments/assets/ae0e3230-d69d-4c85-8864-39b135561465)
 
 ### License
 
-Format is MIT but all the data is owned by Sourabh Bajaj.
+Format is MIT.
